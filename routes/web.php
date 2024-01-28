@@ -42,8 +42,9 @@ Route::get('/Agent', [AgentController::class,'Agent'])->name('Agent');
 
 // route groupe pour gerer les roles des utilsiateurs
 
-Route::group(['middleware'=>'auth'],function()
+/*Route::group(['middleware'=>'auth'],function()
 {
     Route::get('/Agent', [AgentController::class,'Agent'])->name('Agent');
 
 }) ;
+*/
